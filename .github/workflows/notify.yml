@@ -23,4 +23,4 @@ jobs:
           password: ${{ secrets.samar98654042 }}   # mot de passe d'application Gmail
           subject: "GitHub Push Notification"
           body: "Un push a été effectué sur la branche main de HousePricePrediction."
-          to: "ahmed.tounsi@esprit.tn"
+          to: "farah.derbel@esprit.tn"
