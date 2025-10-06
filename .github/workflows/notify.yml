@@ -20,8 +20,8 @@ jobs:
           server_port: 465
           username: ${{ secrets.EMAIL_USERNAME }}
           password: ${{ secrets.EMAIL_PASSWORD }}
-          from: ${{ secrets.EMAIL_USERNAME }}        # <- obligatoire
-          subject: "GitHub Push Notification"
-          body: "Un push a été effectué sur la branche main de HousePricePrediction."
+          from: ${{ secrets.EMAIL_USERNAME }}
+          subject: "Notification GitHub - Nouveau push sur main"
+          body: "Un nouveau push vient d’être effectué sur la branche main du projet HousePricePrediction."
           to: "farah.derbel@esprit.tn"
 
