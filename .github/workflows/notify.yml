@@ -19,8 +19,8 @@ jobs:
         with:
           server_address: smtp.gmail.com
           server_port: 465
-          username: ${{ secrets.bluewavenauticalclub@gmail.com }}   # ton email
-          password: ${{ secrets.samar98654042 }}   # mot de passe d'application Gmail
+          username: ${{ secrets.EMAIL_USERNAME }}   # ton email
+          password: ${{ secrets.EMAIL_PASSWORD }}   # mot de passe d'application Gmail
           subject: "GitHub Push Notification"
           body: "Un push a été effectué sur la branche main de HousePricePrediction."
           to: "farah.derbel2016@gmail.com"
